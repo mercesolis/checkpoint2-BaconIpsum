@@ -1,0 +1,51 @@
+
+
+
+body {
+    font-size: 20px;
+font-family: 'Baloo Thambi 2', cursive;
+padding: 0;
+margin: 0;
+background-color: #2BCDC0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header{
+    background:transparent;
+    color: white;
+    padding-top: 5%;
+    min-height: 70px;
+    border-bottom: none;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header ul{
+    margin: 0;
+    padding: 0;
+}
+
+header li{
+    float: right;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+
+
+
+
