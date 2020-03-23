@@ -3,10 +3,11 @@
 
 body {
     font-size: 20px;
-font-family: 'Baloo Thambi 2', cursive;
-padding: 0;
-margin: 0;
-background-color: #2BCDC0;
+    font-family: 'Baloo Thambi 2', cursive;
+    padding: 0;
+    margin-top: 20;
+    background-color: #2BCDC0;
+    text-align: center;
 }
 
 .container{
@@ -47,5 +48,57 @@ header nav{
 
 
 
+section .highlight{
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+}
+
+#welcome{
+    font-size: 30px;
+    min-height: 200px;
+}
+
+#boxes{
+    background-color: black;
+    color: whitesmoke;
+    margin-top: 20px;
+}
+
+#boxes .box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+.iframe-container{
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25;
+}
+
+@media (max-width: 576px){
+    header nav,
+    header nav li,
+    #welcome{
+        font-size: 20px;
+        float: none;
+        text-align: center;
+        width: 100%;
+        min-height: 100px;
+    }
+    section .highlight{
+        font-size: 30px;
+    }
+    #boxes .box{
+
+        font-size: 15px;
+        width: 100%;
+    }
+}
 
 
+@media (min-width: 992px){
+
+}
